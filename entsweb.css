@@ -1,0 +1,240 @@
+#site-header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top:0 !important;
+}
+.ew-job-archive {
+    width: 100%;
+    display: flex;
+}
+.ew-job-split {
+    width: 50%;
+    padding: 10px;
+}
+.ew-job-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top:130px;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.ew-job-elements {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 130px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.ew-job-archive-box {
+    position: -webkit-sticky;
+    position: sticky;
+    top:130px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+ }
+.ew-job-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ew-job-archive-box:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.ew-archive-box {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+.ew-archive-details {
+    flex-wrap: wrap;
+    padding: 0;
+}
+.ew-archive-box img {
+    text-align: left;
+    height: 80px;
+    padding-right: 15px;
+}
+.ew-archive-box h4 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.ew-archive-box-strapline {
+    padding-left: 20px;
+}
+.ew-view-profile-button {
+    position: absolute;
+    right: 10px;
+}
+.ew-view-profile-button input[type="submit"] {
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+.ew-searchbox {
+    position: -webkit-sticky;
+    position: sticky;
+    top:60px;
+    width: 80%;
+    border: 0.5px solid #ccc;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    /*background-color: #ff9900;*/
+    background-color: white;
+    color: #333;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+}
+.ew-searchbox form {
+}
+
+.ew-searchbox table {
+    border: none;
+    border-collapse: collapse;
+    margin: auto;
+}
+.ew-searchbox table td {
+    border: none;
+    border-collapse: collapse;
+    padding: 0 5px;
+}
+.ew-searchbox form input {
+    color:white;
+}
+.ew-searchbox form input[type="text"], .ew-searchbox form input[type="number"] {
+    background-color:white;
+    color: #444;
+    border-radius: 5px;
+    margin-right: 5px;
+    line-height: 5px;
+    font-size: 14px;
+}
+.ew-searchbox form select {
+    color:#444;
+    background-color: white;
+    margin-right: 5px;
+}
+.ew-searchbox form input[type="submit"] {
+    background-color:#ddbb00;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.ew-searchbox h2 {
+    color: white;
+}
+.ew-talent-search {
+    width: 100%;
+}
+.ew-search-button {
+    text-align: right;
+}
+#talent_select {
+    width: 100px;
+    max-width: 100px;
+    padding-top: 8px;
+}
+#age_select {
+    width: 100px;
+    padding-top: 8px;
+}
+#gender_select {
+    width: 100px;
+    max-width: 100px;
+    padding-top: 8px;
+}
+#ethnicity_select {
+    width: 100px;
+    max-width: 100px;
+    padding-top: 8px;
+}
+.ew-talent-single-header {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+.ew-talent-single-header-details {
+    flex-wrap: wrap;
+    padding: 0;
+}
+.ew-talent-single-title {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.ew-dropdown-box {
+    display:none;
+    z-index:10000;
+    position:absolute;
+    background-color: white;
+    border: 0.5px solid #ccc;
+}
+.ew-dropdown-box div {
+    padding: 3px 10px;
+    border-bottom: 0.5px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    font-size:12px;
+}
+.ew-dropdown-box div:hover {
+    background-color: #eee;
+    cursor:pointer;
+}
+.ew-banner {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #ddbb00;
+    font-size: medium;
+    color: white;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.ew-credit-box {
+    display: flex;
+    width: 100%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
